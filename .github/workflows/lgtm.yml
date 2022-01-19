@@ -1,0 +1,19 @@
+on:
+  pull_request_review:
+    types:
+      - submitted
+
+jobs:
+  lgtm:
+    name: LGTM
+    runs-on: ubuntu-latest
+    if: github.event.review.state == 'approved'
+    steps:
+    - name: hapesay LGTM
+      uses: Rid/hapesay-action@v1.0.2
+      with:
+        message: 'LGTM'
+        hape: 'random'
+        hapesay_on_comment: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
