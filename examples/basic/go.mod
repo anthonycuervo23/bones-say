@@ -1,4 +1,4 @@
-module github.com/Rid/hapesay/v2/example
+module github.com/anthonycuervo23/hapesay-master/example
 
 go 1.16
 

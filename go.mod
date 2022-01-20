@@ -1,4 +1,4 @@
-module github.com/Rid/hapesay/v2
+module github.com/anthonycuervo23/hapesay-master
 
 go 1.17
 

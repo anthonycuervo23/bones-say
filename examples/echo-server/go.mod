@@ -1,4 +1,4 @@
-module github.com/Rid/hapesay/v2/examples/echo-server
+module github.com/anthonycuervo23/hapesay-master/examples/echo-server
 
 go 1.16
 
